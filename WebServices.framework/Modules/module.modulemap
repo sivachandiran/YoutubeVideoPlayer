@@ -1,0 +1,11 @@
+framework module WebServices {
+  umbrella header "WebServices.h"
+
+  export *
+  module * { export * }
+}
+
+module WebServices.Swift {
+    header "WebServices-Swift.h"
+    requires objc
+}
